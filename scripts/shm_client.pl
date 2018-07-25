@@ -1,4 +1,4 @@
-#! /bin/perl -w
+#!/usr/bin/perl -w
 use strict;
 use Time::HiRes qw( usleep );
 use Sys::Mmap qw( mmap PROT_READ MAP_SHARED );
