@@ -1,3 +1,7 @@
+update: 
+- added own perl script to read directy from memory segment: scripts/shm_client.pl
+
+
 addrwatch
 =========
 
