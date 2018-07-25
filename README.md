@@ -75,7 +75,12 @@ Application architecture:
     --------->  addrwatch  +-------------->|
              |             |               |   +------------------+
              +-------------+               +-->| addrwatch_mysql  |
+                                           |   +------------------+
+                                           |    
+                                           |   +------------------+
+                                           +-->| shm_client.pl    |
                                                +------------------+
+                                               
 ```
 
 In the diagram boxes represent separate processes. Main **addrwach** process is
